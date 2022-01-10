@@ -1,10 +1,10 @@
-// swift-tools-version:5.3
+// swift-tools-version:5.5
 
 import PackageDescription
 
 let package = Package(
     name: "Stevia",
-    platforms: [.iOS(.v9), .tvOS(.v10)],
+    platforms: [.iOS(.v11), .tvOS(.v10)],
     products: [.library(name: "Stevia", targets: ["Stevia"])],
     targets: [
         .target(name: "Stevia"),
