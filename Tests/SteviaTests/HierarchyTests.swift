@@ -23,7 +23,7 @@ class HierarchyTests: XCTestCase {
         let view = UIView()
         let v1 = UIView()
         let v2 = UIView()
-        view.sv(
+        view.subviews(
             v1,
             v2
         )
@@ -38,7 +38,7 @@ class HierarchyTests: XCTestCase {
         let cell = UITableViewCell()
         let v1 = UIView()
         let v2 = UIView()
-        cell.sv(
+        cell.subviews(
             v1,
             v2
         )
@@ -53,7 +53,7 @@ class HierarchyTests: XCTestCase {
         let cell = UICollectionViewCell()
         let v1 = UIView()
         let v2 = UIView()
-        cell.sv(
+        cell.subviews(
             v1,
             v2
             )
