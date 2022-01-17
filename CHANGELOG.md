@@ -8,6 +8,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 Put unreleased changes here
 - Preprocessor flag `#if canImport(UIKit)` moved to wrap all UIKit related types.
 
+## [5.2.2] - 2022-01-17
+### Changed
+- Adds support for Xcode13 & Swift 5.5
+
 ## [4.6.0] - 2019-09-30
 ### Changed
 - Adds support for Xcode11 & Swift 5.1
